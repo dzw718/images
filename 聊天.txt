@@ -1,0 +1,50 @@
+<body>
+
+    <div id="userName"></div>
+
+
+
+    <div class="pnl-right-content">
+        <div class="pnl-tabs">
+            <div class="tab-btn active" id="hot-tab">好友列表</div>
+        </div>
+        <div class="pnl-hot">
+            <ul class="rel-list unselect" id="userlist">
+               <!-- <li class="rel-item"><a onclick='showChat("张三")'>张三</a></li>
+                <li class="rel-item"><a onclick='showChat("李四")'>李四</a></li>-->
+            </ul>
+        </div>
+    </div>
+
+    <div class="pnl-right-content">
+        <div class="pnl-tabs">
+            <div class="tab-btn active" >系统广播</div>
+        </div>
+        <div class="pnl-hot">
+            <ul class="rel-list unselect" id="broadcastList">
+               <!-- <li class="rel-item" style="color:cyan;font-family: 微软雅黑">张三已上线</li>
+                <li class="rel-item" style="color:cyan;font-family: 微软雅黑">李四已上线</li>-->
+            </ul>
+        </div>
+    </div>
+
+    <div id="#chatArea"></div>
+    <div id="chatMes"></div>
+
+    <div id="msgs">
+    <!--消息展示区-->
+<!--    <div class="msg guest"><div class="msg-right" style="float: right"><div class="msg-host headDefault"></div><div class="msg-ball">你好</div></div></div>-->
+<!--    <div class="msg robot"><div class="msg-left" style="float: left"><div class="msg-host photo"></div><div class="msg-ball">你好</div></div></div>-->
+    </div>
+    <div>
+        <div>
+            <textarea id="context_text" placeholder="再次输入信息"></textarea>
+            <div id="atcomPn1">
+                <ul id="atcom"></ul>
+            </div>
+        </div>
+        <button id="submit">发送</button>
+    </div>
+
+
+</body>
